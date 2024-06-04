@@ -56,7 +56,7 @@ LockTOSProxy 주소 (mainnet): 0x69b4A202Fa4039B42ab23ADB725aA7b1e9EEBD79
 | 기능 | 설명 | 방법 |
 | -------- | -------- | -------- |
 | STOS 잔액 조회     | 특정 계정의 STOS 잔액을 조회합니다. | • 함수:  balanceOf(address _addr) <br>• 파라미터: <br> address _addr: 조회대상이 되는 주소를 입력  |
-| 총 STOS 발행량 조회     | 총 STOS 발행량을 확인할 수 있습니다.     | 함수 : totalSupply()  <br>• 결과 : 총 STOS 발행량 (wei uint, 18 decimals)|
+| 총 STOS 발행량 조회     | 총 STOS 발행량을 확인할 수 있습니다.     | 함수 : totalSupply()  <br>• 결과 : 총 STOS 발행량 (wei unit, 18 decimals)|
 
 
 |<img src="https://github.com/tokamak-network/TONStarter/blob/develop/img/query_stos_2.png" width="400" alt="totalSupply() 함수 실행">|

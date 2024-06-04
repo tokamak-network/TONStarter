@@ -20,10 +20,10 @@ TON Mining 컨트랙은 이자 (TOS) 클래임과 TON 원금을 인출 할 수 �
 
 | 기능 | 설명 | 방법 |
 | -------- | -------- | -------- |
-| 총 스테이킹된 양 조회     | the total staked amount     | - 함수 totalStakedAmount() <br/>- 결과 : 총 스테이킹된 양 (wei uint, 18 decimals)|
+| 총 스테이킹된 양 조회     | the total staked amount     | - 함수 totalStakedAmount() <br/>- 결과 : 총 스테이킹된 양 (wei unit, 18 decimals)|
 | 토스 마이닝 시작블록 조회     | the staking start block, once staking starts, users can no longer apply for staking.     | - 함수 startBlock() <br/>- 결과 : 시작블록 |
 | 토스 마이닝 종료블록 조회     | endBlock()     | - 함수 endBlock() <br/>- 결과 : 종료블록 |
 | 스테이킹한 상태의 계정 수     | 총 스테이킹한 계정 수 조회     | - 함수 totalStalers()  <br/>- 결과 : 총 스테이킹한 계정 수   |
-| 스테이킹 정보 확인     | 계정의 스테이킹 정보 확인     | - 함수 userStaked(address account)<br/>- 파라미터<br/>- 결과 <br/>     ◦ uint256 amount  입금한 톤 양 (wei uint, 18 decimals) <br/>     ◦ uint256 claimedBlock 클래임한 블록<br/>     ◦ uint256 claimedAmount  클래임한 금액 (wei uint, 18 decimals) <br/>     ◦ uint256 releasedBlock  인출한 블록 <br/>     ◦ uint256 releasedAmount 인출한 톤 양 <br/>     ◦ uint256 releasedTOSAmount 인출한 토스 양 (wei uint, 18 decimals) <br/>     ◦ bool released   true이면 인출완료. false이면 인출안함 |
-| 이자 조회     | 받을 수 있는 이자 조회     | -  함수  canRewardAmount(address account, uint256 specificBlock)  <br/>- 결과 :  받을 수 있는 이자 (wei uint, 18 decimals) |
+| 스테이킹 정보 확인     | 계정의 스테이킹 정보 확인     | - 함수 userStaked(address account)<br/>- 파라미터<br/>- 결과 <br/>     ◦ uint256 amount  입금한 톤 양 (wei unit, 18 decimals) <br/>     ◦ uint256 claimedBlock 클래임한 블록<br/>     ◦ uint256 claimedAmount  클래임한 금액 (wei unit, 18 decimals) <br/>     ◦ uint256 releasedBlock  인출한 블록 <br/>     ◦ uint256 releasedAmount 인출한 톤 양 <br/>     ◦ uint256 releasedTOSAmount 인출한 토스 양 (wei unit, 18 decimals) <br/>     ◦ bool released   true이면 인출완료. false이면 인출안함 |
+| 이자 조회     | 받을 수 있는 이자 조회     | -  함수  canRewardAmount(address account, uint256 specificBlock)  <br/>- 결과 :  받을 수 있는 이자 (wei unit, 18 decimals) |
 | 인출     | 마이닝 종료 블록이 지난수, 스테이킹 한 톤과 이자 토스를 인출한다.     | -  함수  withdraw()   |
