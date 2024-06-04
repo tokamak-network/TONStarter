@@ -2,8 +2,6 @@
 
 > StakingV2Proxy 컨트랙을 통해 스테이킹, 언스테이킹을 할 수 있습니다.
 - Mainnet StakingV2Proxy : [etherscan link](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#readProxyContract)
-- Sepolia StakingV2Proxy  : [etherscan link](https://sepolia.etherscan.io/address/0x80d1c91393c4b516f70bc95d94b1d85667964531#readProxyContract)
-
 
 ![Write as Proxy 선택](https://github.com/tokamak-network/TONStarter/blob/develop/img/tos_staking_0.png)
 
