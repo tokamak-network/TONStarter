@@ -5,7 +5,7 @@
 
 - Mainnet StakingV2Proxy : [etherscan link](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#readProxyContract)
 
-![Read as Proxy 선택](https://github.com/tokamak-network/TONStarter/blob/develop/img/query_ltos_0.png)
+![Read as Proxy 선택](https://github.com/tokamak-network/TONStarter/blob/develop/docs/img/query_ltos_0.png)
 
 Read as Proxy 페이지의 함수를 통해 아래와 같은 기능을 실행할 수 있습니다.
 

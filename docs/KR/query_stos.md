@@ -4,11 +4,11 @@
 
 [마이이더 월렛](https://www.myetherwallet.com/wallet/dashboard) 사이트에 로그인합니다.   메타마스크 지갑을 사용하시는 사용자는 아래 ‘Browser extension’ 메뉴를 클릭하여 지갑연결을 할 수 있습니다.
 
-![마이이더 월렛](https://github.com/tokamak-network/TONStarter/blob/develop/img/query_stos_0.png)
+![마이이더 월렛](https://github.com/tokamak-network/TONStarter/blob/develop/docs/img/query_stos_0.png)
 
 Interact with contract 메뉴로 이동합니다.
 
-![Interact with contract](https://github.com/tokamak-network/TONStarter/blob/develop/img/query_stos_1.png)
+![Interact with contract](https://github.com/tokamak-network/TONStarter/blob/develop/docs/img/query_stos_1.png)
 
 
 컨트랙 주소에 LockTOSProxy 주소를 입력하고, AIB 영역에 아래 내용을 입력합니다.
