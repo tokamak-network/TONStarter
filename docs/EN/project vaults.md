@@ -43,7 +43,7 @@
 | 컨트랙(볼트) | 기능 | 방법 |
 | -------- | -------- | -------- |
 | PublicSale     | 클래임     |- 함수 function claim()      |
-| Liquidity     | 유동성 추가하기     |- 함수function mint(uint256 tosAmount)<br/>- 파라미터 <br/>    ◦ uint256 tosAmount : 입력 토스 양|
+| Liquidity     | 유동성 추가하기     |- 함수function mint(uint256 tosAmount)<br/>- 파라미터 <br/>    ◦ uint256 tosAmount : 입력 토스 양 (wei unit, 18 decimals)|
 | TONStaker     | 클래임     |- 함수 function tgeClaim(address _account) <br/>- 파라미터 <br/>    ◦ address _account: 계정 주소|
 | TOSStaker     | 클래임     |- 함수 function tgeClaim(address _account) <br/>- 파라미터 <br/>    ◦ address _account: 계정 주소|
 | LP Reward     | 리워드 프로그램 생성하기      | Text     |
