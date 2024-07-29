@@ -18,7 +18,7 @@
 - [Backend]()
 
 ## What is TONStarter?
-[TONStarter](https://tonstarter.tokamak.network) is a decentralized launchpad platform, designed to support projects on the Ethereum Network and Titan Layer 2 Network. 
+[TONStarter](https://tonstarter.tokamak.network) is a decentralized launchpad platform, designed to support projects on the Ethereum Network. 
 
 ## Documentation
 - You can find any past official announcements from [Medium blog](https://medium.com/tokamak-network/search?q=tonstarter)
@@ -26,4 +26,4 @@
 - If you want to build on TONStarter, refer to the [TONStarter Documentation](html.link)
 
 ## Contributing
-Currently, there is no official members developing TONStarter. You can fork the repository and make contribution directly. 
+Currently, there is no official Tokamak Network members developing TONStarter. You can fork the repository and make contribution directly. The admin functions for the contracts will be eventually moved to DAO where community members can directly update the contract.
