@@ -22,7 +22,7 @@
 
 *********
 
-### getLtosToTosPossibleIndex(uint256 ltos)
+### [getLtosToTosPossibleIndex(uint256 ltos)](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#readProxyContract#F12)
 
 얼마의 LTOS를 TOS로 환산했을 때, TOS 양을 알 수 있습니다.
 
@@ -33,7 +33,7 @@
 
 *********
 
-### stakingOf(address _addr)
+### [stakingOf(address _addr)](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#readProxyContract#F12)
 
 특정 계정이 스테이킹한 스테이킹 아이디 목록을 조회합니다.
 
@@ -45,7 +45,7 @@
 
 ********
 
-### stakedOf(uint256 stakeId)
+### [stakedOf(uint256 stakeId)](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#readProxyContract#F31)
 
 특정 스테이킹 아이디가 보유하고 있는 TOS양을 조회합니다.
 
@@ -56,7 +56,7 @@
 
 ********
 
-### totalLtos()
+### [totalLtos()](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#readProxyContract#F38)
 
 스테이킹된 총 LTOS양을 조회합니다.
 
@@ -67,7 +67,7 @@
 
 ********
 
-### stakedOfAll()
+### [stakedOfAll()](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#readProxyContract#F32)
 
 스테이킹된 총 TOS 양을 조회합니다.
 
