@@ -7,7 +7,7 @@
 
 ![Read as Proxy 선택](../img/query_ltos_0.png)
 
-Read as Proxy 페이지의 함수를 통해 아래와 같은 기능을 실행할 수 있습니다.
+**Read as Proxy** 페이지의 함수를 통해 아래와 같은 기능을 실행할 수 있습니다.
 
 
 
@@ -18,7 +18,7 @@ Read as Proxy 페이지의 함수를 통해 아래와 같은 기능을 실행할
 - 파라미터
   - address _addr : 조회대상이 되는 계정주소 
 - 결과
-  - uint256 balance : LTOS 잔액 (wei unit, 18 decimals) 
+  - uint256 balance: LTOS 잔액 (wei unit, 18 decimals) 
 
 *********
 
@@ -39,7 +39,7 @@ Read as Proxy 페이지의 함수를 통해 아래와 같은 기능을 실행할
 
 - 파라미터
   - address _addr : 조회대상이 되는 계정주소
-- 결과
+- 결과값
   - uint256[] memory : 아이디 배열을 리턴합니다.
     - 첫번째 인덱스는 락업기간이 없이 스테이킹한 아이디입니다. 락업기간을 정하지 않고 스테이킹한 것이 없는 경우, 첫번째 인덱스가 0이거나 null 입니다.
 
@@ -51,7 +51,7 @@ Read as Proxy 페이지의 함수를 통해 아래와 같은 기능을 실행할
 
 - 파라미터
   - address _addr : 조회대상이 되는 계정주소
-- 결과
+- 결과값
   - uint256:  TOS 양  (wei unit, 18 decimals)
 
 ********
@@ -62,7 +62,7 @@ Read as Proxy 페이지의 함수를 통해 아래와 같은 기능을 실행할
 
 - 파라미터
   - 없음
-- 결과
+- 결과값
   - uint256 : 스테이킹된 총 LTOS 양 (wei unit, 18 decimals)
 
 ********
@@ -73,7 +73,7 @@ Read as Proxy 페이지의 함수를 통해 아래와 같은 기능을 실행할
 
 - 파라미터
   - 없음
-- 결과
+- 결과값
   - uint256 :  스테이킹된 총 TOS 양 (wei unit, 18 decimals)
 
 ********
