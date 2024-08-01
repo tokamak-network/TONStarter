@@ -1,4 +1,4 @@
-# LTOS 함수 
+# LTOS 조회 방법 
 
 > LTOS는 TOS를 스테이킹 했을 때 발행되는 토큰입니다.
 > StakingV2Proxy 컨트랙을 통해 LTOS 잔액을 조회할 수 있습니다.
