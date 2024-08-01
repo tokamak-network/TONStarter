@@ -14,7 +14,7 @@
 
 
 
-### 리워드 프로그램  정보 조회
+### [incentives(bytes32 incentiveId)](https://etherscan.io/address/0xe34139463bA50bD61336E0c446Bd8C0867c6fE65#readProxyContract#F4)
 
 | 기능     | 리워드 프로그램 조회                                         |
 | -------- | ------------------------------------------------------------ |
@@ -24,7 +24,7 @@
 | 결과     | - totalRewardUnclaimed The amount of reward token not yet claimed by users <br/>- totalSecondsClaimedX128 Total liquidity-seconds claimed, represented as a UQ32.128 <br/> - numberOfStakes The count of deposits that are currently staked for the incentive <br/> |
 
 
-### 예치한 NFT 정보 조회
+### [deposits(uint256 tokenId)](https://etherscan.io/address/0xe34139463bA50bD61336E0c446Bd8C0867c6fE65#readProxyContract#F1)
 
 | 기능     | 예치한 NFT 정보 조회                                         |
 | -------- | ------------------------------------------------------------ |
@@ -33,7 +33,7 @@
 | 파라미터 | uint256 tokenId : LP 아이디                                  |
 | 결과     | - owner The owner of the deposited NFT <br/>- numberOfStakes Counter of how many incentives for which the liquidity is staked<br/> - tickLower The lower tick of the range <br/> -tickUpper The upper tick of the range |
 
- ### 리워드 토큰 개수 조회
+ ### [rewards(IERC20Minimal rewardToken, address owner)](https://etherscan.io/address/0xe34139463bA50bD61336E0c446Bd8C0867c6fE65#readProxyContract#F8)
 
 | 기능     | 특정 계정이 보유한 리워드 토큰 개수 조회                     |
 | -------- | ------------------------------------------------------------ |
@@ -52,7 +52,7 @@
 
  
 
- ### 리워드 프로그램 만들기
+ ### [createIncentive(IncentiveKey memory key, uint256 reward)](https://etherscan.io/address/0xe34139463bA50bD61336E0c446Bd8C0867c6fE65#writeProxyContract#F2)
 | 기능 | 리워드 프로그램 만들기 |
 | -------- | -------- |
 | 설명	|  Creates a new liquidity mining incentive program|
@@ -63,7 +63,7 @@
 | 결과|- rewardsOwed The amount of the reward token claimable by the owner|
 
 
-### 리워드 프로그램 종료하기
+### [endIncentive(IncentiveKey memory key)](https://etherscan.io/address/0xe34139463bA50bD61336E0c446Bd8C0867c6fE65#writeProxyContract#F3)
 | 기능 | 리워드 프로그램 종료하기 |
 | -------- | -------- |
 | 설명	|  Ends an incentive after the incentive end time has passed and all stakes have been withdrawn |
@@ -72,7 +72,7 @@
 | 결과|- refund The remaining reward tokens when the incentive is ended |
 
 
-### 예치토큰 전송하기
+### [transferDeposit(uint256 tokenId, address to)](https://etherscan.io/address/0xe34139463bA50bD61336E0c446Bd8C0867c6fE65#writeProxyContract#F7)
 | 기능 | 예치토큰 전송하기  |
 | -------- | -------- |
 | 설명	|  Transfers ownership of a deposit from the sender to the given recipient|
@@ -81,8 +81,8 @@
 | 결과|-  tokenId The ID of the token (and the deposit) to transfer <br/>-  to The new owner of the deposit |
 
 
-### 리워드 프로그램에서 LP 토큰 인출하기
-| 기능 | LP 토큰 인출하기  |
+### [withdrawToken(uint256 tokenId, address to,bytes memory data)](https://etherscan.io/address/0xe34139463bA50bD61336E0c446Bd8C0867c6fE65#writeProxyContract#F9)
+| 기능 | 리워드 프로그램에서 LP 토큰 인출하기 |
 | -------- | -------- |
 | 설명	|  Withdraws a Uniswap V3 LP token tokenId from this contract to the recipient to |
 |함수이름  |  function withdrawToken(<br/>uint256 tokenId,<br/>address to,<br/>bytes memory data<br/>)  external |
@@ -90,7 +90,7 @@
 
 
 ### 리워드 프로그램에 LP 스테이킹 하기 (방법1)
-| 기능 | 예치토큰 전송하기  |
+| 기능 | 리워드 프로그램에 LP 스테이킹 하기 (방법1) |
 | -------- | -------- |
 | 설명	|  Stakes a Uniswap V3 LP token <br/>Upon receiving a Uniswap V3 ERC721, creates the token deposit setting owner to from. Also stakes token in one or more incentives if properly formatted data has a length > 0.|
 |함수이름  |  function onERC721Received(address, address from,uint256 tokenId,bytes calldata data)  external |
@@ -99,31 +99,22 @@
 | 스크립트 예제|    const incentiveKeyAbi =<br/>  'tuple(address rewardToken, address pool, uint256 startTime, uint256 endTime, address refundee)'<br/><br/>      // this is the reward program's incentiveKey  <br/>      let key1 =  {<br/>          rewardToken: '0x73a54e5C054aA64C1AE7373C2B5474d8AFEa08bd',<br/>          pool: '0x516e1af7303a94f81e91e4ac29e20f4319d4ecaf',<br/>          startTime: 1632833326,<br/>          endTime: 1635425326,<br/>          refundee: '0x3b9878Ef988B086F13E5788ecaB9A35E74082ED9'<br/>       }<br/><br/>      let key2 = {<br/>        rewardToken: '0x73a54e5C054aA64C1AE7373C2B5474d8AFEa08bd',<br/>        pool: '0x516e1af7303a94f81e91e4ac29e20f4319d4ecaf',<br/>        startTime: 1632834379,<br/>        endTime: 1635392658,<br/>        refundee: '0x3b9878Ef988B086F13E5788ecaB9A35E74082ED9'<br/>      }<br/><br/>      const incentiveKeyAbi =<br/>        'tuple(address rewardToken, address pool, uint256 startTime, uint256 endTime, address refundee)'<br/><br/>      let arraykey = [key1, key2];<br/>      let arraydata = arraykey.map(incentiveResultToStakeAdapter) <br/><br/>      let data = ethers.utils.defaultAbiCoder.encode([`${incentiveKeyAbi}[]`], [arraydata])<br/><br/>      const npm = new ethers.Contract(nonfungiblePositionManager, NPM_ABI);<br/>      const staker = new ethers.Contract(uniswapV3Staker, STAKER_ABI);<br/><br/>      const tx = await npm.connect(_sender).safeTransferFrom(sender, uniswapV3Staker, tokenid, data)<br/>      console.log('safeTransferFrom tx',tx.hash);<br/>      await tx.wait(); <br/>|
 
 
- ### 리워드 프로그램에 LP 스테이킹 하기 (방법2)
-| 기능 | 스테이킹 |
+ ### [stakeToken(IncentiveKey memory key, uint256 tokenId)](https://etherscan.io/address/0xe34139463bA50bD61336E0c446Bd8C0867c6fE65#writeProxyContract#F6)
+| 기능 | 리워드 프로그램에 LP 스테이킹 하기 (방법2) |
 | -------- | -------- |
 | 설명	|  Stakes a Uniswap V3 LP token|
 |함수이름  |  function  stakeToken(IncentiveKey memory key, uint256 tokenId)  external |
 | 파라미터| - key The key of the incentive for which to stake the NFT <br/>-  tokenId The ID of the token to stake|
 
- ### 프로그램에 스테이킹한 LP 언스테이킹 하기
-| 기능 | 언스테이킹 |
+ ### [unstakeToken(IncentiveKey memory key, uint256 tokenId)](https://etherscan.io/address/0xe34139463bA50bD61336E0c446Bd8C0867c6fE65#writeProxyContract#F8)
+| 기능 | 프로그램에 스테이킹한 LP 언스테이킹 하기 |
 | -------- | -------- |
 | 설명	|  Unstakes a Uniswap V3 LP token|
 |함수이름  |  function unstakeToken(IncentiveKey memory key, uint256 tokenId) external |
 | 파라미터| - - key The key of the incentive for which to stake the NFT <br/>-  tokenId The ID of the token to stake|
 
-
- ### 리워드 클래임하기
+ ### [claimReward](https://etherscan.io/address/0xe34139463bA50bD61336E0c446Bd8C0867c6fE65#writeProxyContract#F1)
 | 기능 | 리워드 클래임하기 |
-| -------- | -------- |
-| 설명	|  Returns amounts of reward tokens owed to a given address according to the last time all stakes were updated|
-|함수이름  |  function rewards(IERC20Minimal rewardToken, address owner) external |
-| 파라미터| - rewardToken The token for which to check rewards <br/>- owner The owner for which the rewards owed are checked |
-| 결과|- rewardsOwed The amount of the reward token claimable by the owner|
-
- ### 리워드 정보 조회
-| 기능 | 특정 계정이 보유한 리워드 토큰 개수 조회 |
 | -------- | -------- |
 | 설명	|  Transfers amountRequested of accrued rewardToken rewards from the contract to the recipient to|
 |함수이름  |  function claimReward(<br/>IERC20Minimal rewardToken,<br/>address to,<br/>uint256 amountRequested<br/>) external |
@@ -132,11 +123,11 @@
 
 
 
- ## UniswapV3Staker  Contract
+ ## UniswapV3Staker  Contract Information
 
  - etherscan [link](https://etherscan.io/address/0xe34139463bA50bD61336E0c446Bd8C0867c6fE65)
 - Repo : https://github.com/Uniswap/v3-staker
-- Mainnet [deployed address](https://github.com/Uniswap/v3-staker/releases/tag/v1.0.2) :    0xe34139463bA50bD61336E0c446Bd8C0867c6fE65
+-  [deployed address](https://github.com/Uniswap/v3-staker/releases/tag/v1.0.2) :    0xe34139463bA50bD61336E0c446Bd8C0867c6fE65
 - [Document](https://docs.uniswap.org/contracts/v3/reference/periphery/staker/UniswapV3Staker)
 - Interface : https://github.com/Uniswap/v3-staker/blob/main/contracts/interfaces/IUniswapV3Staker.sol
 - [UniswapV3 deployement addresses](https://docs.uniswap.org/contracts/v3/reference/deployments/ethereum-deployments)
@@ -158,7 +149,13 @@ struct IncentiveKey {
 
 
 
-## 리워드 프로그램 Key
+### ## 리워드 프로그램 Key 
+
+
+
+
+
+## 리워드 프로그램 Key Detailed 
 
 
 | Token Pair  | Pool Address | 리워드 토큰 | Program Key |
