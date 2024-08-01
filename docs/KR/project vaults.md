@@ -14,9 +14,9 @@
 
 ## PublicSale Vault 
 
-- AURA PublicSale: 0x3B75d3f628C29d357b484EA7d091faEd63419267 : [etherscan link](https://etherscan.io/address/0x3B75d3f628C29d357b484EA7d091faEd63419267)
-- DOC PublicSale: 0xBef737D725993847c345647ebA096500FdAE71c6 : [ethersacn link](https://etherscan.io/address/0xBef737D725993847c345647ebA096500FdAE71c6)
-- LYDA PublicSale: 0x3ba5c96665960ABD931858b8D80Ec80f53F2A09c: [etherscan link](https://etherscan.io/address/0x3ba5c96665960ABD931858b8D80Ec80f53F2A09c)
+- AURA PublicSale: 0x3B75d3f628C29d357b484EA7d091faEd63419267 : [etherscan link](https://etherscan.io/address/0x3B75d3f628C29d357b484EA7d091faEd63419267#writeProxyContract#F4)
+- DOC PublicSale: 0xBef737D725993847c345647ebA096500FdAE71c6 : [ethersacn link](https://etherscan.io/address/0xBef737D725993847c345647ebA096500FdAE71c6#writeProxyContract#F4)
+- LYDA PublicSale: 0x3ba5c96665960ABD931858b8D80Ec80f53F2A09c: [etherscan link](https://etherscan.io/address/0x3ba5c96665960ABD931858b8D80Ec80f53F2A09c#writeProxyContract#F5)
 
 ### 함수 
 
