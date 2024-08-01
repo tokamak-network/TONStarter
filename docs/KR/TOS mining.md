@@ -11,10 +11,6 @@
 | TON #4     | 0x9F97b34161686d60ADB955ed63A2FC0b2eC0a2a9     | [link](https://etherscan.io/address/0x9f97b34161686d60adb955ed63a2fc0b2ec0a2a9#readProxyContract)       |
 | TON #5     | 0x21Db1777Dd95749A849d9e244136E72bd93082Ea     | [link](https://etherscan.io/address/0x21Db1777Dd95749A849d9e244136E72bd93082Ea#readProxyContract)       |
 
-
-
-## 함수
-
 모든 TON Mining 컨트랙은  톤 스테이킹 할 수 있는 기간이 종료되었습니다. 
 TON Mining 컨트랙은 이자 (TOS) 클래임과 TON 원금을 인출 할 수 있는 기능을 제공합니다.
 
@@ -41,6 +37,8 @@ TON Mining 컨트랙은 이자 (TOS) 클래임과 TON 원금을 인출 할 수 �
   - 없음
 - 결과값
   -  없음
+
+***
 
 
 
