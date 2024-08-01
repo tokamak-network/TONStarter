@@ -58,7 +58,7 @@ LockTOSProxy 주소 (mainnet): 0x69b4A202Fa4039B42ab23ADB725aA7b1e9EEBD79
 
 <img src="../img/query_stos_2.png" width="400" alt="totalSupply() 함수 실행">
 
-### totalSupply()
+### totalSupply() 
 
 총 STOS 발행량을 확인할 수 있습니다.
 
@@ -66,7 +66,7 @@ LockTOSProxy 주소 (mainnet): 0x69b4A202Fa4039B42ab23ADB725aA7b1e9EEBD79
 - 결과
   - 총 STOS 발행량 (wei unit, 18 decimals)
 
-
+**************
 
 ### balanceOf(address _addr)
 
@@ -76,3 +76,6 @@ LockTOSProxy 주소 (mainnet): 0x69b4A202Fa4039B42ab23ADB725aA7b1e9EEBD79
   - address _addr: 조회대상이 되는 주소 
 - 결과 
   - 특정 계정의 STOS 잔액 (wei unit, 18 decimals)
+
+*********
+
