@@ -4,11 +4,11 @@
 
 [마이이더 월렛](https://www.myetherwallet.com/wallet/dashboard) 사이트에 로그인합니다.   메타마스크 지갑을 사용하시는 사용자는 아래 ‘Browser extension’ 메뉴를 클릭하여 지갑연결을 할 수 있습니다.
 
-![마이이더 월렛](../img/query_stos_0.png)
+![마이이더 월렛](https://github.com/tokamak-network/TONStarter/blob/develop/img/query_stos_0.png)
 
 Interact with contract 메뉴로 이동합니다.
 
-![Interact with contract](../img/query_stos_1.png)
+![Interact with contract](https://github.com/tokamak-network/TONStarter/blob/develop/img/query_stos_1.png)
 
 
 컨트랙 주소에 LockTOSProxy 주소를 입력하고, AIB 영역에 아래 내용을 입력합니다.
@@ -50,35 +50,14 @@ LockTOSProxy 주소 (mainnet): 0x69b4A202Fa4039B42ab23ADB725aA7b1e9EEBD79
 	}
 ]
 ```
-
-
-## 함수 
-
 다음 버튼을 클릭하면,  위에 입력한 ABI에 명시되어 있는 함수를 호출할 수 있습니다.
 
-<img src="../img/query_stos_2.png" width="400" alt="totalSupply() 함수 실행">
 
-**************
+| 기능 | 설명 | 방법 |
+| -------- | -------- | -------- |
+| STOS 잔액 조회     | 특정 계정의 STOS 잔액을 조회합니다. | • 함수:  balanceOf(address _addr) <br>• 파라미터: <br> address _addr: 조회대상이 되는 주소를 입력  |
+| 총 STOS 발행량 조회     | 총 STOS 발행량을 확인할 수 있습니다.     | 함수 : totalSupply()  |
 
-### balanceOf(address _addr)
 
-특정 계정의 STOS 잔액을 조회합니다.
-
-- 파라미터 
-  - address _addr: 조회대상이 되는 주소 
-- 결과값 
-  - 특정 계정의 STOS 잔액 (wei unit, 18 decimals)
-
-*********
-
-### totalSupply() 
-
-총 STOS 발행량을 확인할 수 있습니다.
-
-- 파라미터: 없음
-- 결과값
-  - 총 STOS 발행량 (wei unit, 18 decimals)
-
-**************
-
-### 
+|<img src="https://github.com/tokamak-network/TONStarter/blob/develop/img/query_stos_2.png" width="400" alt="totalSupply() 함수 실행">|
+|:--:|

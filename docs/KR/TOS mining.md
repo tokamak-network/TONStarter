@@ -11,19 +11,109 @@
 | TON #4     | 0x9F97b34161686d60ADB955ed63A2FC0b2eC0a2a9     | [link](https://etherscan.io/address/0x9f97b34161686d60adb955ed63a2fc0b2ec0a2a9#readProxyContract)       |
 | TON #5     | 0x21Db1777Dd95749A849d9e244136E72bd93082Ea     | [link](https://etherscan.io/address/0x21Db1777Dd95749A849d9e244136E72bd93082Ea#readProxyContract)       |
 
-
-## 함수
-모든 TON Mining 컨트랙은  톤 스테이킹 할 수 있는 기간이 종료되었습니다.
-TON #1은 마이닝은 20165180 Block 까지 진행됩니다.
-TON Mining 컨트랙은 이자 (TOS) 클래임과 TON 원금을 인출 할 수 있는 기능(withdraw())을 제공합니다.
+모든 TON Mining 컨트랙은  톤 스테이킹 할 수 있는 기간이 종료되었습니다. 
+TON Mining 컨트랙은 이자 (TOS) 클래임과 TON 원금을 인출 할 수 있는 기능을 제공합니다.
 
 
-| 기능 | 설명 | 방법 |
-| -------- | -------- | -------- |
-| 총 스테이킹된 양 조회     | the total staked amount     | - 함수 totalStakedAmount() <br/>- 결과 : 총 스테이킹된 양 (wei unit, 18 decimals)|
-| 토스 마이닝 시작블록 조회     | the staking start block, once staking starts, users can no longer apply for staking.     | - 함수 startBlock() <br/>- 결과 : 시작블록 |
-| 토스 마이닝 종료블록 조회     | endBlock()     | - 함수 endBlock() <br/>- 결과 : 종료블록 |
-| 스테이킹한 상태의 계정 수     | 총 스테이킹한 계정 수 조회     | - 함수 totalStalers()  <br/>- 결과 : 총 스테이킹한 계정 수   |
-| 스테이킹 정보 확인     | 계정의 스테이킹 정보 확인     | - 함수 userStaked(address account)<br/>- 파라미터<br/>- 결과 <br/>     ◦ uint256 amount  입금한 톤 양 (wei unit, 18 decimals) <br/>     ◦ uint256 claimedBlock 클래임한 블록<br/>     ◦ uint256 claimedAmount  클래임한 금액 (wei unit, 18 decimals) <br/>     ◦ uint256 releasedBlock  인출한 블록 <br/>     ◦ uint256 releasedAmount 인출한 톤 양 <br/>     ◦ uint256 releasedTOSAmount 인출한 토스 양 (wei unit, 18 decimals) <br/>     ◦ bool released   true이면 인출완료. false이면 인출안함 |
-| 이자 조회     | 받을 수 있는 이자 조회     | -  함수  canRewardAmount(address account, uint256 specificBlock)  <br/>- 결과 :  받을 수 있는 이자 (wei unit, 18 decimals) |
-| 인출     | 마이닝 종료 블록이 지난수, 스테이킹 한 톤과 이자 토스를 인출한다.     | -  함수  withdraw()   |
+
+## 실행함수
+
+### withdraw()
+
+마이닝 종료 블록이 지난 후에 스테이킹 한 톤과 운영이익(레이어2의 시뇨리지로 받은 TOS)을 인출한다.
+
+- 파라미터
+  - 없음
+- 결과값
+  -  없음
+
+***
+
+### claim() 
+
+마이닝 종료 블록이 지난 후에 이자 TOS를 인출한다.
+
+- 파라미터
+  - 없음
+- 결과값
+  -  없음
+
+***
+
+
+
+## 조회함수
+
+### canRewardAmount(address account, uint256 specificBlock) 
+
+받을 수 있는 이자를 조회한다.
+
+- 파라미터
+  - address account: 조회하려는 계정 주소
+  - uint256 specificBlock: 조회하려는 시점의 블록 번호
+- 결과값
+  -  uint256: 받을 수 있는 이자 (wei unit, 18 decimals)
+
+***
+
+### userStaked(address account) 
+
+계정의 스테이킹 정보 확인
+
+- 파라미터
+  - address account: 조회하려는 계정 주소 
+- 결과값
+  - uint256 amount  입금한 톤 양 (wei unit, 18 decimals)
+  - uint256 claimedBlock 클래임한 블록 
+  - uint256 claimedAmount  클래임한 금액 (wei unit, 18 decimals) 
+  - uint256 releasedBlock  인출한 블록 
+  - uint256 releasedAmount 인출한 톤 양 
+  - uint256 releasedTOSAmount 인출한 토스 양 (wei unit, 18 decimals) 
+  - bool released   true이면 인출완료. false이면 인출안함
+
+***
+
+### totalStalers()  
+
+총 스테이킹한 계정 수 조회
+
+- 파라미터
+  - 없음
+- 결과값
+  -  uint256: 총 스테이킹한 계정 수
+
+***
+
+### totalStakedAmount()
+
+총 스테이킹한 계정 수 조회
+
+- 파라미터
+  - 없음
+- 결과값
+  -  uint256: 총 스테이킹된 양 (wei unit, 18 decimals)
+
+***
+
+### startBlock()
+
+마이닝 시작블록 조회
+
+- 파라미터
+  - 없음
+- 결과값
+  -  uint256: 시작블록 번호
+
+***
+
+### endBlock()
+
+마이닝 종료블록 조회
+
+- 파라미터
+  - 없음
+- 결과값
+  -  uint256: 종료블록 번호
+
+***
+
