@@ -1,7 +1,7 @@
 # TOS 스테이킹 관련 함수
 
 > StakingV2Proxy 컨트랙을 통해 스테이킹, 언스테이킹을 할 수 있습니다.
-- Mainnet StakingV2Proxy : [etherscan link](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#readProxyContract)
+- Mainnet StakingV2Proxy : [etherscan link](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#writeProxyContract)
 
 ![Write as Proxy 선택](../img/tos_staking_0.png)
 
