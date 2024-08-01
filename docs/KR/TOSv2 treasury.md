@@ -14,18 +14,7 @@
 
 ## 조회 함수 (View) 
 
-### claim(uint256 tosAmount) 
-
-토스를 이더로 환전함
-
-- 파라미터
-  - uint256 tosAmount : 토스양 (wei unit, 18 decimals)
-- 결과값
-  -  없음
-
-*********
-
-### claimableEther(uint256 tosAmount)
+### [claimableEther(uint256 tosAmount)](https://etherscan.io/address/0xd27a68a457005f822863199af0f817f672588ad6#readProxyContract#F18)
 
 입력된 토스량 따른 이더 환산 량
 
@@ -36,7 +25,7 @@
 
 *********
 
-### backingRateETHPerTOS()
+### [backingRateETHPerTOS()](https://etherscan.io/address/0xd27a68a457005f822863199af0f817f672588ad6#readProxyContract#F8)
 
 1토스당 환전 이더 양 조회
 
@@ -51,7 +40,18 @@
 
 ## 실행 함수 (Transaction)
 
-### setClaimPause(bool _pause)
+### [claim(uint256 tosAmount)](https://etherscan.io/address/0xd27a68a457005f822863199af0f817f672588ad6#writeProxyContract#F6)
+
+토스를 이더로 환전함
+
+- 파라미터
+  - uint256 tosAmount : 토스양 (wei unit, 18 decimals)
+- 결과값
+  -  없음
+
+****
+
+### [setClaimPause(bool _pause)](https://etherscan.io/address/0xd27a68a457005f822863199af0f817f672588ad6#writeProxyContract#F21)
 
 환전 기능 중지/재시작 실행 하기, PolicyOwner 만 실행 가능한 함수
 
@@ -62,7 +62,7 @@
 
 ****
 
-### setClaimableStartTime(uint32 _startTime)
+### [setClaimableStartTime(uint32 _startTime)](https://etherscan.io/address/0xd27a68a457005f822863199af0f817f672588ad6#writeProxyContract#F22)
 
 환전 시작 시간 설정 하기, PolicyOwner 만 실행 가능한 함수
 
