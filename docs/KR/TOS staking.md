@@ -9,7 +9,7 @@
 
 *********
 
-### unstake(uint256 _stakeId)
+### [unstake(uint256 _stakeId)](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#writeProxyContract#F31)
 
 이자와 원금 인출하기
 
@@ -20,7 +20,7 @@
 
 *********
 
-### claimForSimpleType(uint256 _stakeId, uint256 claimLtos) 
+### [claimForSimpleType(uint256 _stakeId, uint256 claimLtos)](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#writeProxyContract#F4)
 
 이자 인출하기
 
@@ -32,7 +32,7 @@
 
 *********
 
-### stake(uint256 _amount) 
+### [stake(uint256 _amount)](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#writeProxyContract#F24) 
 
 락업기간을 지정하지 않고, TOS 스테이킹을 합니다.
 
@@ -43,7 +43,7 @@
 
 *********
 
-### stakeGetStos(uint256 _amount, uint256 _periodWeeks) 
+### [stakeGetStos(uint256 _amount, uint256 _periodWeeks)](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#writeProxyContract#F26)
 
 락업기간 지정(스테이킹 종료일 지정)해서, TOS 스테이킹 하기 
 
@@ -55,7 +55,7 @@
 
 *********
 
-### increaseAmountForSimpleStake(uint256 _stakeId, uint256 _amount)
+### [increaseAmountForSimpleStake(uint256 _stakeId, uint256 _amount)](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#writeProxyContract#F8)
 
 락업기간 지정하지 않고 스테이킹 한 경우의 **TOS 추가 스테이킹**
 
@@ -67,19 +67,7 @@
 
 *********
 
-### increaseAmountForSimpleStake(uint256 _stakeId, uint256 _amount)
-
-락업기간 지정하지 않고(종료일이 없음) 스테이킹 한 경우의 **TOS 추가 스테이킹**
-
-- 파라미터
-  - uint256 _stakeId: 스테이크 아이디
-  - uint256 _amount:  TOS 양 (wei unit, 18 decimals)
-- 결과값
-  -  없음
-
-*********
-
-### resetStakeGetStosAfterLock(uint256 _stakeId, uint256 _addTosAmount, uint256 _periodWeeks) 
+### [resetStakeGetStosAfterLock(uint256 _stakeId, uint256 _addTosAmount, uint256 _periodWeeks)](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#writeProxyContract#F18)
 
 락업기간이 있는 스테이킹의 경우(종료일이 있는 경우), 락업 기간 종료전에  **TOS 추가 스테이킹 하기** 
 
@@ -92,7 +80,7 @@
 
 *********
 
-### increaseBeforeEndOrNonEnd(uint256 _stakeId, uint256 _amount, uint256 _unlockWeeks) 
+### [increaseBeforeEndOrNonEnd(uint256 _stakeId, uint256 _amount, uint256 _unlockWeeks)](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#writeProxyContract#F9)
 
 락업종료일이 지났거나 없는 경우, 특정 스테이킹 아이디에 **TOS 스테이킹 하기**
 
