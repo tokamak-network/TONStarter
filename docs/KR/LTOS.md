@@ -11,9 +11,7 @@
 
 *********
 
-### [balanceOf(address _addr)](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#readProxyContract#F5){:target="_blank"}
-
-
+### [balanceOf(address _addr)](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#readProxyContract#F5)
 
 특정 계정의 LTOS 잔액 조회합니다. 
 
