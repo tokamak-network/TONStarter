@@ -9,7 +9,7 @@
 
 **Read as Proxy** 페이지의 함수를 통해 아래와 같은 기능을 실행할 수 있습니다.
 
-
+*********
 
 ### balanceOf(address _addr)
 

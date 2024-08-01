@@ -7,7 +7,30 @@
 
 위의 이더스캔 링크 페이지의 **Write as Proxy** 페이지에서 실행 가능한 함수를 확인하실 수 있습니다.
 
+*********
 
+### unstake(uint256 _stakeId)
+
+이자와 원금 인출하기
+
+- 파라미터
+  - uint256 _stakeId: 스테이크 아이디 
+- 결과값
+  -  없음
+
+*********
+
+### claimForSimpleType(uint256 _stakeId, uint256 claimLtos) 
+
+이자 인출하기
+
+- 파라미터
+  - uint256 _stakeId: 스테이크 아이디 
+  -  uint256 claimLtos: 인출하려는 LTOS 양 (wei unit, 18 decimals)
+- 결과값
+  - 없음
+
+*********
 
 ### stake(uint256 _amount) 
 
@@ -79,29 +102,6 @@
   - uint256 _unlockWeeks: 추가 락업기간(주단위)
 - 결과값
   -  없음
-
-*********
-
-### unstake(uint256 _stakeId)
-
-이자와 원금 인출하기
-
-- 파라미터
-  - uint256 _stakeId: 스테이크 아이디 
-- 결과값
-  -  없음
-
-*********
-
-### claimForSimpleType(uint256 _stakeId, uint256 claimLtos) 
-
-이자 인출하기
-
-- 파라미터
-  - uint256 _stakeId: 스테이크 아이디 
-  -  uint256 claimLtos: 인출하려는 LTOS 양 (wei unit, 18 decimals)
-- 결과값
-  - 없음
 
 *********
 
