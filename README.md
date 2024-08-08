@@ -15,29 +15,27 @@
 - [Contributing](#contributing)
 
 ## What is TONStarter?
-[TONStarter](https://tonstarter.tokamak.network) is a decentralized launchpad platform, designed to support projects on the Ethereum Network. 
+[TONStarter](https://tonstarter.tokamak.network) is a decentralized launchpad platform, designed by Tokamak Network to support projects on the Ethereum and L2 Networks. This project is transitioned to community driven development model. Please note that all official support and development is paused, but feel free to fork and reuse it.  
 
 ## Documentation
-- **Historic archives**: [Medium blog](https://medium.com/tokamak-network/search?q=tonstarter)
+- **Announcements**: Past announcements can be found on [Medium blog](https://medium.com/tokamak-network/search?q=tonstarter)
 - **Etherscan guide**: Interact with TONStarter contracts using Etherscan UI, refer to the [Etherscan guide](./docs/readme.md)
 - If you want to build on TONStarter, refer to the [TONStarter Documentation](html.link)
 
 ## Repository 
-All repositories related to development for TONStarter is provided here. Please note that there are no official support for these codes; use it as is. 
+All repositories related to development for TONStarter is provided here. Please note that there are no official support for them. Use at your own risk.  
 
-**Completed**
-- Contract
-- Service 
+| Type     | Name | Description | Status                        |
+|----------|------|-------------|-------------------------------|
+| Contract |     t |     t        |  :heavy_check_mark: Completed
+|     t     |   t   |    t         |  :x: Incomplete
 
-**Incomplete**
-- test
-- 
 
 ## Community hosted links
-Following links are hosted by a community member and are not endoresed by us. Use at your own risk; we do not provide any guarantee or support for using these links.  
+Following links are hosted by a community member and are not endorsed by us. Use at your own risk; we do not provide any guarantee or support for using these links.  
 - TONStarter
 - TOSv2
 
 
 ## Contributing
-Currently, there is no official Tokamak Network members developing TONStarter. You can fork the repository and make contribution directly. The admin functions for the contracts will be eventually moved to DAO where community members can directly update the contract.
+Currently, there are no official Tokamak Network members developing TONStarter. You can fork the repository and make contribution directly. The admin functions for the contracts will be eventually moved to DAO where community members can directly update the contract.
