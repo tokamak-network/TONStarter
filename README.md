@@ -27,8 +27,28 @@ All repositories related to development for TONStarter is provided here. Please 
 
 | Type     | Name | Description | Status                        |
 |----------|------|-------------|-------------------------------|
-| Contract |     t |     t        |  :heavy_check_mark: Completed
-|     t     |   t   |    t         |  :x: Incomplete
+| Contract |  [tonstarter-contracts](https://github.com/tokamak-network/tonstarter-contracts) | Main contracts for TONStarter  |  :heavy_check_mark: Completed
+|     Contract    |   [tonstarter-contract-upgrade](https://github.com/tokamak-network/tonstarter-contract-upgrade)  |    ?        |  :x: Incomplete
+|     Frontend    |   [tonstarter-frontend](https://github.com/tokamak-network/tonstarter-frontend)  |    ?        |  :x: Incomplete
+|     Frontend    |   [TONStarter-templates](https://github.com/tokamak-network/TONStarter-templates)  |    ?        |  :x: Incomplete
+|     SDK    |   [TONStarter-sdk](https://github.com/tokamak-network/TONStarter-sdk)  |    ?        |  :x: Incomplete
+|     Delete?    |   [TONStarter-subgraph](https://github.com/tokamak-network/TONStarter-subgraph)  |    ?        |  :x: Incomplete
+|     Contract    |   [tonstarter-project-token](https://github.com/tokamak-network/tonstarter-project-token)  |    ?        |  :x: Incomplete
+|     Contract    |   [tonstarter-token-distribution](https://github.com/tokamak-network/tonstarter-token-distribution)  |    ?        |  :x: Incomplete
+|     Frontend    |   [tonstarter-l2](https://github.com/tokamak-network/tonstarter-l2)  |    ?        |  :x: Incomplete
+|     PRIVATE Delete?    |   [ tonstarter-api](https://github.com/tokamak-network/tonstarter-api)  |    ?        |  :x: Incomplete
+|     Contract    |   [tonstarter-docs](https://github.com/tokamak-network/tonstarter-docs)  |    ?        |  :x: Incomplete
+|     Contract    |   [tonstarter-publicSaleUpgrade](https://github.com/tokamak-network/tonstarter-publicSaleUpgrade)  |    ?        |  :x: Incomplete
+|     PRIVATE Contract    |   [TONStarter-privatesale](https://github.com/tokamak-network/TONStarter-privatesale)  |    ?        |  :x: Incomplete
+|     PRIVATE Contract    |   [TONStarter-Middleware](https://github.com/tokamak-network/TONStarter-Middleware)  |    ?        |  :x: Incomplete
+|     PRIVATE Contract    |   [simple-tonstarter](https://github.com/tokamak-network/simple-tonstarter)  |    ?        |  :x: Incomplete
+|     PRIVATE Contract    |   [TONStarter-admin](https://github.com/tokamak-network/TONStarter-admin)  |    ?        |  :x: Incomplete
+|     Contract    |   [tosv2-contracts](https://github.com/tokamak-network/tosv2-contracts)  |    ?        |  :x: Incomplete
+|     Contract    |   [tosv2-interface](https://github.com/tokamak-network/tosv2-interface)  |    ?        |  :x: Incomplete
+|     PRIVATE Contract    |   [tosv2-layer2-contract](https://github.com/tokamak-network/tosv2-layer2-contract)  |    ?        |  :x: Incomplete
+|     PRIVATE Contract    |   [tosv2-worker](https://github.com/tokamak-network/tosv2-worker)  |    ?        |  :x: Incomplete
+|     PRIVATE Contract    |   [tosv2-api-server](https://github.com/tokamak-network/tosv2-api-server)  |    ?        |  :x: Incomplete
+|     Contract    |   [tosv2-storybook](https://github.com/tokamak-network/tosv2-storybook)  |    ?        |  :x: Incomplete
 
 
 ## Community hosted links
