@@ -3,7 +3,7 @@
   <br />
   <a href="https://tonstarter.tokamak.network"><img alt="TONStarter" src="https://tonstarter.tokamak.network/static/media/fld_bi_gray.bec69ff3.svg" width=600></a>
   <br />
-  <h3><a href="https://tonstarter.tokamak.network">TONStarter</a> is a decentralized launchpad platform.</h3>
+  <h3><a href="https://tonstarter.tokamak.network">TONStarter</a> is a decentralized launchpad platform, developed & maintained by community.</h3>
   <br />
 </div>
 
@@ -15,14 +15,14 @@
 - [Contributing](#contributing)
 
 ## What is TONStarter?
-[TONStarter](https://tonstarter.tokamak.network) is a decentralized launchpad platform, designed by Tokamak Network to support projects on the Ethereum and L2 Networks. This project is transitioned to community driven development model. Please note that all official support and development is paused, but feel free to fork and reuse it.  
+[TONStarter](https://tonstarter.tokamak.network) is a decentralized launchpad platform, originally designed by Tokamak Network to support projects on Ethereum and L2 Networks. Since 2024, TONStarter has transitioned to a community-driven development model. Please note that all official support and development from Tokamak Network is paused, but feel free to fork and reuse it.
 
 ## Documentation
 - **Announcements**: Past announcements can be found on [Medium blog](https://medium.com/tokamak-network/search?q=tonstarter)
 - **Etherscan guide**: Interact with TONStarter contracts using Etherscan UI, refer to the [Etherscan guide](./docs/readme.md)
 - If you want to build on TONStarter, refer to the [TONStarter Documentation](html.link)
 
-## Repository 
+## Repository
 All repositories related to development for TONStarter is provided here. Please note that there are no official support for them. Use at your own risk.  
 
 | Type     | Name | Description | Status                        |
@@ -37,8 +37,8 @@ All repositories related to development for TONStarter is provided here. Please 
 |     Contract    |   [tonstarter-token-distribution](https://github.com/tokamak-network/tonstarter-token-distribution)  |    ?        |  :x: Incomplete
 |     Frontend    |   [tonstarter-l2](https://github.com/tokamak-network/tonstarter-l2)  |    ?        |  :x: Incomplete
 |     PRIVATE Delete?    |   [ tonstarter-api](https://github.com/tokamak-network/tonstarter-api)  |    ?        |  :x: Incomplete
-|     Contract    |   [tonstarter-docs](https://github.com/tokamak-network/tonstarter-docs)  |    ?        |  :x: Incomplete
-|     Contract    |   [tonstarter-publicSaleUpgrade](https://github.com/tokamak-network/tonstarter-publicSaleUpgrade)  |    ?        |  :x: Incomplete
+|     Whitepaper    |   [tonstarter-docs](https://github.com/tokamak-network/tonstarter-docs)  |TONStarter Whitepaper        |  :heavy_check_mark: Completed 
+|     Contract    |   [tonstarter-publicSaleUpgrade](https://github.com/tokamak-network/tonstarter-publicSaleUpgrade)  |   **Harvey**       |  :x: Incomplete
 |     PRIVATE Contract    |   [TONStarter-privatesale](https://github.com/tokamak-network/TONStarter-privatesale)  |    ?        |  :x: Incomplete
 |     PRIVATE Contract    |   [TONStarter-Middleware](https://github.com/tokamak-network/TONStarter-Middleware)  |    ?        |  :x: Incomplete
 |     PRIVATE Contract    |   [simple-tonstarter](https://github.com/tokamak-network/simple-tonstarter)  |    ?        |  :x: Incomplete
@@ -53,8 +53,8 @@ All repositories related to development for TONStarter is provided here. Please 
 
 ## Community hosted links
 Following links are hosted by a community member and are not endorsed by us. Use at your own risk; we do not provide any guarantee or support for using these links.  
-- TONStarter
-- TOSv2
+- [TONStarter]()
+- [TOSv2]()
 
 
 ## Contributing
