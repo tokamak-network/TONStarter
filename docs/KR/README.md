@@ -12,4 +12,4 @@
 - [TOS Mining 관련 정보와 함수](./TOS%20mining.md)
 - [Reward Program  관련 정보와 함수](./Reward%20program%20(UniswapV3).md)
 - [Launched Project’s Vaults](./project%20vaults.md)
-- [Airdrop](./airdrop.md)
+- [Airdrop](./airdrop.md)
