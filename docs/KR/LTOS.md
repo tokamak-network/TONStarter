@@ -1,4 +1,4 @@
-# LTOS 조회 방법 
+# LTOS 조회 방법
 
 > LTOS는 TOS를 스테이킹 했을 때 발행되는 토큰입니다.
 > StakingV2Proxy 컨트랙을 통해 LTOS 잔액을 조회할 수 있습니다.
@@ -13,23 +13,23 @@
 
 ### [balanceOf(address _addr)](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#readProxyContract#F5)
 
-특정 계정의 LTOS 잔액 조회합니다. 
+특정 계정의 LTOS 잔액(스테이킹한 TOS 원금) 조회합니다.
 
 - 파라미터
-  - address _addr : 조회대상이 되는 계정주소 
+  - address _addr : 조회대상이 되는 계정주소
 - 결과
-  - uint256 balance: LTOS 잔액 (wei unit, 18 decimals) 
+  - uint256 balance: LTOS(스테이킹한 TOS 원금) 잔액 (wei unit, 18 decimals)
 
 *********
 
 ### [getLtosToTosPossibleIndex(uint256 ltos)](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#readProxyContract#F12)
 
-얼마의 LTOS를 TOS로 환산했을 때, TOS 양을 알 수 있습니다.
+얼마의 LTOS를 TOS로 환산했을 때, TOS 양(이자포함)을 알 수 있습니다.
 
 - 파라미터
   - uint256 ltos:  LTOS 양 (wei unit, 18 decimals)
 - 결과
-  - uint256 balance: 변환된 TOS 양 (wei unit, 18 decimals) 
+  - uint256 balance: 변환된 TOS 양 (wei unit, 18 decimals)
 
 *********
 
@@ -78,7 +78,7 @@
 
 ********
 
-### 
+###
 
 
 
