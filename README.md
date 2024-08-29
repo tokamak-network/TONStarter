@@ -15,7 +15,7 @@
 - [Contributing](#contributing)
 
 ## What is TONStarter?
-TONStarter is a decentralized launchpad platform, originally designed by Tokamak Network to support projects on Ethereum and L2 Networks. Since 2024, TONStarter has transitioned to a community-driven development model. Please note that all official support and development from Tokamak Network is paused, but feel free to fork and reuse it.
+TONStarter is a decentralized launchpad platform, originally designed by Tokamak Network to support projects on Ethereum and L2 Networks. Since August 2024, TONStarter has transitioned to a community-driven development model. Please note that all official support and development from Tokamak Network is paused, but feel free to fork and reuse it.
 
 ## Documentation
 - **Announcements:** Past announcements can be found on [Medium blog](https://medium.com/tokamak-network/search?q=tonstarter)
