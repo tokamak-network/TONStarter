@@ -19,7 +19,7 @@ TONStarter is a decentralized launchpad platform, originally designed by Tokamak
 
 ## Documentation
 - **Announcements:** Past announcements can be found on [Medium blog](https://medium.com/tokamak-network/search?q=tonstarter)
-- **Etherscan guide:** Interact with TONStarter contracts using [Etherscan guide](./docs/readme.md)
+- **Etherscan guide:** Interact with TONStarter contracts using [Etherscan guide](./docs/EN/readme.md)
 - **Guide to build on L2:** If you want to build TONStarter on L2, [check this documentation](https://github.com/tokamak-network/l2-project-launch/tree/main/doc)
 
 ## Repository
