@@ -49,4 +49,4 @@ Following links are hosted by a community member and are not endorsed by us. Use
 
 
 ## Contributing
-Currently, there are no official Tokamak Network members developing TONStarter. You can fork the repository and make contribution directly. The admin functions for the contracts will be eventually moved to DAO where community members can directly update the contract.
+Currently, there are no official Tokamak Network members developing TONStarter. You can fork the repository and make contribution directly. The admin functions for existing contracts will be removed, and new contracts that uses existing TOS token can be deployed by anyone. 
