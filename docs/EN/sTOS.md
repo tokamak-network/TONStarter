@@ -1,18 +1,15 @@
-# STOS 조회 방법
+# How to check sTOS
+> You can check the sTOS balance of a specific account and the total sTOS issuance through the LockTOSProxy contract. In the case of the LockTOSProxy contract, since balance inquiry functions are not displayed on Etherscan, you can use sites like MyEtherWallet to check the balance.
 
-> LockTOSProxy 컨트랙을 통해 특정 계정이 보유하고 있는 STOS 잔액 및 총 STOS 발행량을 확인할 수 있습니다.  LockTOSProxy 컨트랙의 경우는 이더스캔에서 잔액조회 관련 함수가 표시되지 않기 때문에 마이이더월렛과 같은 사이트를 이용하여 조회를 할 수 있습니다.
-
-[마이이더 월렛](https://www.myetherwallet.com/wallet/dashboard) 사이트에 로그인합니다.   메타마스크 지갑을 사용하시는 사용자는 아래 ‘Browser extension’ 메뉴를 클릭하여 지갑연결을 할 수 있습니다.
-
+Log in to the [MyEtherWallet](https://www.myetherwallet.com/wallet/dashboard) site. Users who use MetaMask wallet can connect their wallet by clicking on the 'Browser extension' menu below.
 ![마이이더 월렛](../img/query_stos_0.png)
 
-Interact with contract 메뉴로 이동합니다.
-
+Navigate to the 'Interact with contract' menu.
 ![Interact with contract](../img/query_stos_1.png)
 
-
-컨트랙 주소에 LockTOSProxy 주소를 입력하고, AIB 영역에 아래 내용을 입력합니다.
-LockTOSProxy 주소 (mainnet): 0x69b4A202Fa4039B42ab23ADB725aA7b1e9EEBD79
+Enter the LockTOSProxy address in the contract address field, and input the following content in the ABI area:
+LockTOSProxy address (mainnet):
+0x69b4A202Fa4039B42ab23ADB725aA7b1e9EEBD79
 
 ```
 [
@@ -50,14 +47,31 @@ LockTOSProxy 주소 (mainnet): 0x69b4A202Fa4039B42ab23ADB725aA7b1e9EEBD79
 	}
 ]
 ```
-다음 버튼을 클릭하면,  위에 입력한 ABI에 명시되어 있는 함수를 호출할 수 있습니다.
 
+## Functions
+By clicking the next button, you can call the functions specified in the ABI entered above.
 
-| 기능 | 설명 | 방법 |
-| -------- | -------- | -------- |
-| STOS 잔액 조회     | 특정 계정의 STOS 잔액을 조회합니다. | • 함수:  balanceOf(address _addr) <br>• 파라미터: <br> address _addr: 조회대상이 되는 주소를 입력  |
-| 총 STOS 발행량 조회     | 총 STOS 발행량을 확인할 수 있습니다.     | 함수 : totalSupply()  <br>• 결과 : 총 STOS 발행량 (wei unit, 18 decimals)|
+<img src="../img/query_stos_2.png" width="400" alt="totalSupply() 함수 실행">
 
+**************
 
-|<img src="https://github.com/tokamak-network/TONStarter/blob/develop/img/query_stos_2.png" width="400" alt="totalSupply() 함수 실행">|
-|:--:|
+### balanceOf(address _addr)
+
+Retrieves the STOS balance of a specific account.
+
+- Parameters
+    - address _addr: The address to be queried
+- Return value
+    - STOS balance of the specific account (in wei unit, 18 decimals)
+
+*********
+
+### totalSupply() 
+
+Checks the total supply of STOS.
+
+- Parameters: None
+- Return value
+    - Total supply of STOS (in wei unit, 18 decimals)
+
+**************

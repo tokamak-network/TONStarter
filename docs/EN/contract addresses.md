@@ -1,7 +1,7 @@
-# 컨트랙 주소
+# Contract Addresses
 
 
-## Mainnet
+## Ethereum Network
 
 
 | Contract | Address |

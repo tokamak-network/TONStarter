@@ -1,14 +1,64 @@
+
+
 # Treasury
 
-> TreasuryProxy 컨트랙을 통해, 본인이 보유하고 있는 TOS를 이더로 환전할 수 있습니다.
+> Through the TreasuryProxy contract, you can exchange the TOS you hold for Ether.
+- TreasuryProxy :  [etherscan link](https://etherscan.io/address/0xd27a68a457005f822863199af0f817f672588ad6#writeProxyContract)
+
+![Select Write as Proxy](../img/treasury_0.png)
+
+You can check the executable functions on the Write as Proxy page of the Etherscan link above.
+
+
+## View function (View) 
+
+### [claimableEther(uint256 tosAmount)](https://etherscan.io/address/0xd27a68a457005f822863199af0f817f672588ad6#readProxyContract#F18)
+
+Amount of Ether calculated based on the input TOS amount
+- Parameter
+    - uint256 tosAmount: Amount of TOS (wei unit, 18 decimals)
+- Return value
+    - uint256: Amount of Ether to be received upon exchange
+*********
+
+### [backingRateETHPerTOS()](https://etherscan.io/address/0xd27a68a457005f822863199af0f817f672588ad6#readProxyContract#F8)
+
+Query the Ether exchange rate for 1 TOS
+- Parameter
+    - None
+- Return value
+    - uint256: Amount of Ether received for 1 TOS (in wei, 18 decimals)
+*********
 
 
 
-| 기능 | 설명 | 방법 |
-| -------- | -------- | -------- |
-| 환전     | 토스를 이더로 환전함     | - 함수 claim(uint256 tosAmount)<br/>- 파라미터<br/>    ◦ uint256 tosAmount : 토스양 (wei unit, 18 decimals)|
-| 이더 환전 금액 조회     | 입력된 토스량 따른 이더 환산 량     | - 함수 claimableEther(uint256 tosAmount)<br/>- 파라미터<br/>    ◦ uint256 tosAmount: 토스양 (wei unit, 18 decimals) <br/>- 결과<br/>    ◦ 환전될때 받을 수 있는 이더량     |
-| 1토스당 이더 환전 금액 조회     | 1토스당 환전 이더 양 조회     | - 함수 backingRateETHPerTOS()<br/>- 파라미터<br/>   - 결과 <br/>    ◦ 1토스당 환전되는 이더양  (wei unit, 18 decimals)    |
-| 환전 중지/시작 실행 하기     | PolicyOwner 만 실행 가능한 함수임. 환전 기능을 중지 시키거나 재개하는 함수입니다.| - 함수 setClaimPause(bool _pause)<br/> - 파라미터<br/>     ◦ bool _pause : true면 환전중지, false면 환전가능     |
-| 환전 시작 시간 설정 하기     | PolicyOwner 만 실행 가능한 함수임. 환전 시작 시간을 설정하는 함수입니다.     | - 함수 setClaimableStartTime(uint32 _startTime)<br/>- 파라미터<br/>    ◦ uint32 _startTime : 환전 시작시간     |
+## Function execution (Transaction)
+
+### [claim(uint256 tosAmount)](https://etherscan.io/address/0xd27a68a457005f822863199af0f817f672588ad6#writeProxyContract#F6)
+Exchange TOS for Ether
+- Parameters
+  - uint256 tosAmount: Amount of TOS (wei unit, 18 decimals)
+- Return Value
+  - None
+
+****
+
+### [setClaimPause(bool _pause)](https://etherscan.io/address/0xd27a68a457005f822863199af0f817f672588ad6#writeProxyContract#F21)
+Execute pause/resume of exchange function, only executable by PolicyOwner
+- Parameters
+    - bool _pause : true to pause exchange, false to enable exchange
+- Return Value
+    - None
+
+****
+
+### [setClaimableStartTime(uint32 _startTime)](https://etherscan.io/address/0xd27a68a457005f822863199af0f817f672588ad6#writeProxyContract#F22)
+
+Set exchange start time, function only executable by PolicyOwner
+- Parameters
+    - uint32 _startTime : Exchange start time
+- Return Value
+    - None
+
+*********
 

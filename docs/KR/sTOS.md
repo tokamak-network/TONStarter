@@ -1,6 +1,6 @@
-# STOS 조회 방법
+# sTOS 조회 방법
 
-> LockTOSProxy 컨트랙을 통해 특정 계정이 보유하고 있는 STOS 잔액 및 총 STOS 발행량을 확인할 수 있습니다.  LockTOSProxy 컨트랙의 경우는 이더스캔에서 잔액조회 관련 함수가 표시되지 않기 때문에 마이이더월렛과 같은 사이트를 이용하여 조회를 할 수 있습니다.
+> LockTOSProxy 컨트랙을 통해 특정 계정이 보유하고 있는 SsTOS 잔액 및 총 sTOS 발행량을 확인할 수 있습니다.  LockTOSProxy 컨트랙의 경우는 이더스캔에서 잔액조회 관련 함수가 표시되지 않기 때문에 마이이더월렛과 같은 사이트를 이용하여 조회를 할 수 있습니다.
 
 [마이이더 월렛](https://www.myetherwallet.com/wallet/dashboard) 사이트에 로그인합니다.   메타마스크 지갑을 사용하시는 사용자는 아래 ‘Browser extension’ 메뉴를 클릭하여 지갑연결을 할 수 있습니다.
 

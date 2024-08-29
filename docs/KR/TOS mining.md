@@ -73,7 +73,7 @@ TON Mining 컨트랙은 이자 (TOS) 클래임과 TON 원금을 인출 할 수 �
 
 ***
 
-### totalStalers()  
+### totalStakers()  
 
 총 스테이킹한 계정 수 조회
 
