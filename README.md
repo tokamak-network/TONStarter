@@ -46,7 +46,7 @@ You can host TONStarter in local environment. Please follow this guide. As this 
 - [TONStarter](https://github.com/tokamak-network/tonstarter-frontend/tree/archiving)
 - [TOSv2](https://github.com/tokamak-network/tosv2-interface/tree/archiving)
 
-Please note that new UniswapV3 rewards program created require to build an event driven database (such as subgraph) to interact using our Etherscan guide or local hosting guide.
+Please note that interacting with newly created UniswapV3 rewards programs requires building an event-driven database (such as a subgraph). You can do this by following our Etherscan guide or local hosting guide.
 
 ## Community hosted links
 Following links are hosted by a community member and are not endorsed by us. Use at your own risk; we do not provide any guarantee or support for using these links.  
