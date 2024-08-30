@@ -41,12 +41,13 @@ All repositories related to development for TONStarter is provided here. Please 
 |     Contract    |   [l2-project-launch](https://github.com/tokamak-network/l2-project-launch)      |  :x: Incomplete
 |     Frontend    |   [tonstarter-l2](https://github.com/tokamak-network/tonstarter-l2)         |  :x: Incomplete
 |     SDK    |   [TONStarter-sdk](https://github.com/tokamak-network/TONStarter-sdk)          |  :x: Incomplete
+## Local hosting
+You can host TONStarter in local environment. Please follow this guide. As this is more of a reference hosting, we do not recommend using this software for production. Please do your own research. 
 
 ## Community hosted links
 Following links are hosted by a community member and are not endorsed by us. Use at your own risk; we do not provide any guarantee or support for using these links.  
 - [TONStarter]()
 - [TOSv2]()
-
 
 ## Contributing
 Currently, there are no official Tokamak Network members developing TONStarter. You can fork the repository and make contribution directly. The admin functions for existing contracts will be removed, and new contracts that uses existing TOS token can be deployed by anyone. 
