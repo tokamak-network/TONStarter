@@ -1,7 +1,7 @@
 # Reward Program
 
 > TONStarter > Reward Program allows you to provide or receive rewards through the UniswapV3Staker contract
-- UniswapV3Staker : [etherscan link](https://etherscan.io/address/0xe34139463bA50bD61336E0c446Bd8C0867c6fE65#readProxyContract) 
+- UniswapV3Staker : [etherscan link](https://etherscan.io/address/0xe34139463bA50bD61336E0c446Bd8C0867c6fE65#readProxyContract)
 
 ## Query Functions
 Query functions can be called through ***Read as Proxy***.
@@ -44,7 +44,7 @@ Query functions can be called through ***Read as Proxy***.
 You can execute these functions through the Write as Proxy page.
 ![Select Write as Proxy](../img/reward-1.png)
 
- 
+
 
  ### [createIncentive(IncentiveKey memory key, uint256 reward)](https://etherscan.io/address/0xe34139463bA50bD61336E0c446Bd8C0867c6fE65#writeProxyContract#F2)
 | Feature | Creating a reward program |
@@ -143,10 +143,10 @@ struct IncentiveKey {
 
 
 
-## Rewards Program Key Detailed 
+## Rewards Program Key Detailed
+- Reference : [link](https://github.com/tokamak-network/tonstarter-frontend/blob/bfd67e54f9f887fba2cafe665d051b8a8ac06e9a/src/constants/db.ts#L6936C9-L6937C4)
 
-
-| Token Pair  | Pool Address | 리워드 토큰 | Program Key |
+| Token Pair  | Pool Address | Reward Token | Program Key |
 | -------- | -------- | -------- | -------- |
 |TOS / WETH	|0x2ad99c938471770da0cd60e08eaf29ebff67a92a	|0x409c4D8cd5d2924b9bc5509230d16a61289c8153	|{"rewardToken":"0x409c4D8cd5d2924b9bc5509230d16a61289c8153","pool":"0x2ad99c938471770da0cd60e08eaf29ebff67a92a","startTime":1638801000,"endTime":1641430800,"refundee":"0x0496B93040E1c7931C8f9b7D1c57787ceb6485d4"}|
 |TOS / WTON	|0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4	|0x409c4D8cd5d2924b9bc5509230d16a61289c8153	|{"rewardToken":"0x409c4D8cd5d2924b9bc5509230d16a61289c8153","pool":"0x1c0ce9aaa0c12f53df3b4d8d77b82d6ad343b4e4","startTime":1638752400,"endTime":1641430800,"refundee":"0x0496B93040E1c7931C8f9b7D1c57787ceb6485d4"}|
