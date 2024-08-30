@@ -43,11 +43,15 @@ All repositories related to development for TONStarter is provided here. Please 
 |     SDK    |   [TONStarter-sdk](https://github.com/tokamak-network/TONStarter-sdk)          |  :x: Incomplete
 ## Local hosting
 You can host TONStarter in local environment. Please follow this guide. As this is more of a reference hosting, we do not recommend using this software for production. Please do your own research. 
+- [TONStarter](https://github.com/tokamak-network/tonstarter-frontend/tree/archiving)
+- [TOSv2](https://github.com/tokamak-network/tosv2-interface/tree/archiving)
+
+Please note that new UniswapV3 rewards program created require to build an event driven database (such as subgraph) to interact using our Etherscan guide or local hosting guide.
 
 ## Community hosted links
 Following links are hosted by a community member and are not endorsed by us. Use at your own risk; we do not provide any guarantee or support for using these links.  
-- [TONStarter]()
-- [TOSv2]()
+- [TONStarter](https://sonyoungsung.github.io/tonstarter-interface/)
+- [TOSv2](https://sonyoungsung.github.io/tosv2-interface/)
 
 ## Contributing
 Currently, there are no official Tokamak Network members developing TONStarter. You can fork the repository and make contribution directly. The admin functions for existing contracts will be removed, and new contracts that uses existing TOS token can be deployed by anyone. 
