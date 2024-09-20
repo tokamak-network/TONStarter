@@ -43,14 +43,6 @@ All repositories related to development for TONStarter is provided here. Please 
 | Frontend | [tonstarter-l2](https://github.com/tokamak-network/tonstarter-l2) | Incomplete |
 | SDK | [TONStarter-sdk](https://github.com/tokamak-network/TONStarter-sdk) | Incomplete |
 
-| Bill of Materials | Purpose | Cost: |
-|---|:---|:---|
-| Raspberry Pi Computer Units  | Runs main program, computations and calculations  | **TBA**  |
-| Camera/Sensors  | Monitors parking lot entrances and uses [OpenCV](http://opencv.org/) | **TBA**   |
-| Network Adapters  | Transmits data regarding capacity and current conditions    | **TBA**   |
-| External Materials  | (*Waterproof Case, Ethernet, Power Cords*)   | **TBA**   |
-
-
 ## Local hosting
 You can host TONStarter in local environment. Please follow this guide. As this is more of a reference hosting, we do not recommend using this software for production. Please do your own research. 
 - [TONStarter](https://github.com/tokamak-network/tonstarter-frontend/tree/archiving)
