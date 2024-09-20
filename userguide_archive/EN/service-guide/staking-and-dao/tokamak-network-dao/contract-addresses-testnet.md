@@ -1,0 +1,5 @@
+# Contract addresses (testnet)
+
+Testnet tokens can be requested via our [faucet](https://docs.tokamak.network/home/service-guide/faucet-testnet).
+
+<table><thead><tr><th width="245">Contract</th><th>Sepolia Network</th></tr></thead><tbody><tr><td>DAOVault</td><td>0xB9F6c9E75418D7E5a536ADe08f0218196BB3eBa4</td></tr><tr><td>DAOAgendaManager</td><td>0x1444f7a8bC26a3c9001a13271D56d6fF36B44f08</td></tr><tr><td>Candidate</td><td>0xc462834ea537c23C6aAb31c2564dfE16e7CD37BD</td></tr><tr><td>CandidateFactory</td><td>0xc004ae9c774A27d6bE6C860d8c414AC697D4dc28</td></tr><tr><td>CandidateFactoryProxy</td><td>0x04e3C2B720FB8896A7f9Ea59DdcA85fD45189C7f</td></tr><tr><td>DAOCommittee</td><td>0x79cfbEaCB5470bBe3B8Fe76db2A61Fc59e588C38</td></tr><tr><td>DAOCommitteeProxy</td><td>0xA2101482b28E3D99ff6ced517bA41EFf4971a386</td></tr><tr><td>DAOCommitteeOwner</td><td>0xDB0755b606d15C011A03b1C968E54F96bBdDd1D7</td></tr><tr><td>DAOCommittee_V1</td><td>0xDC7e4c6cAe2123758f17D17572c6f6e820D2b431</td></tr></tbody></table>
