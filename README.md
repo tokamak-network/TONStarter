@@ -28,20 +28,20 @@ All repositories related to development for TONStarter is provided here. Please 
 
 | Type | Name | Status |
 |---|:---|:---|
-|     Whitepaper    |   [tonstarter-docs](https://github.com/tokamak-network/tonstarter-docs)      |   Completed 
-| Contract |  [tonstarter-contracts](https://github.com/tokamak-network/tonstarter-contracts)|   Completed
-|     Contract    |   [tonstarter-contract-upgrade](https://github.com/tokamak-network/tonstarter-contract-upgrade)         |  Completed
-|     Contract    |   [tonstarter-project-token](https://github.com/tokamak-network/tonstarter-project-token)         |   Completed
-|     Contract    |   [tonstarter-token-distribution](https://github.com/tokamak-network/tonstarter-token-distribution)         |  Completed
-|     Contract    |   [tonstarter-publicSaleUpgrade](https://github.com/tokamak-network/tonstarter-publicSaleUpgrade)   |    Completed
-|     Contract    |   [tosv2-contracts](https://github.com/tokamak-network/tosv2-contracts)        |    Completed
-|     Frontend    |   [tonstarter-frontend](https://github.com/tokamak-network/tonstarter-frontend)        |   Completed
-|     Frontend    |   [tosv2-interface](https://github.com/tokamak-network/tosv2-interface)         |     Completed
-|     Frontend    |   [TONStarter-templates](https://github.com/tokamak-network/TONStarter-templates)         |   Completed
-|     Backend    |   [ico20-server](https://github.com/tokamak-network/ico20-server)      |  Completed
-|     Contract    |   [l2-project-launch](https://github.com/tokamak-network/l2-project-launch)      |  Incomplete
-|     Frontend    |   [tonstarter-l2](https://github.com/tokamak-network/tonstarter-l2)         |  Incomplete
-|     SDK    |   [TONStarter-sdk](https://github.com/tokamak-network/TONStarter-sdk)          | Incomplete
+| Whitepaper | [tonstarter-docs](https://github.com/tokamak-network/tonstarter-docs) | Completed |
+| Contract |  [tonstarter-contracts](https://github.com/tokamak-network/tonstarter-contracts)|   Completed |
+|     Contract    |   [tonstarter-contract-upgrade](https://github.com/tokamak-network/tonstarter-contract-upgrade)         |  Completed |
+|     Contract    |   [tonstarter-project-token](https://github.com/tokamak-network/tonstarter-project-token)         |   Completed |
+|     Contract    |   [tonstarter-token-distribution](https://github.com/tokamak-network/tonstarter-token-distribution)         |  Completed |
+|     Contract    |   [tonstarter-publicSaleUpgrade](https://github.com/tokamak-network/tonstarter-publicSaleUpgrade)   |    Completed |
+|     Contract    |   [tosv2-contracts](https://github.com/tokamak-network/tosv2-contracts)        |    Completed |
+|     Frontend    |   [tonstarter-frontend](https://github.com/tokamak-network/tonstarter-frontend)        |   Completed |
+|     Frontend    |   [tosv2-interface](https://github.com/tokamak-network/tosv2-interface)         |     Completed |
+|     Frontend    |   [TONStarter-templates](https://github.com/tokamak-network/TONStarter-templates)         |   Completed |
+|     Backend    |   [ico20-server](https://github.com/tokamak-network/ico20-server)      |  Completed |
+|     Contract    |   [l2-project-launch](https://github.com/tokamak-network/l2-project-launch)      |  Incomplete |
+|     Frontend    |   [tonstarter-l2](https://github.com/tokamak-network/tonstarter-l2)         |  Incomplete |
+|     SDK    |   [TONStarter-sdk](https://github.com/tokamak-network/TONStarter-sdk)          | Incomplete |
 ## Local hosting
 You can host TONStarter in local environment. Please follow this guide. As this is more of a reference hosting, we do not recommend using this software for production. Please do your own research. 
 - [TONStarter](https://github.com/tokamak-network/tonstarter-frontend/tree/archiving)
