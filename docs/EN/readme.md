@@ -8,7 +8,7 @@
 - [How to check sTOS](./sTOS.md)
 - [How to check staked TOS (LTOS)](./LTOS.md)
 - [TOS staking-related functions](./TOS%20staking.md)
-- [TOS Treasury-related functions](./TOSv2%20treasury.md)
+- [TOS Treasury-related functions](./TOSv2%20Treasury.md)
 - [TOS Mining-related information and functions](./TOS%20mining.md)
 - [Reward Program-related information and functions](./Reward%20program%20(UniswapV3).md)
 - [Launched Project's Vaults](./project%20vaults.md)
