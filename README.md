@@ -40,8 +40,8 @@ All repositories related to development for TONStarter is provided here. Please 
 | Frontend | [TONStarter-templates](https://github.com/tokamak-network/TONStarter-templates) | Completed |
 | Backend | [ico20-server](https://github.com/tokamak-network/ico20-server) | Completed |
 | Contract | [l2-project-launch](https://github.com/tokamak-network/l2-project-launch) | Incomplete |
-| Frontend | [tonstarter-l2](https://github.com/tokamak-network/tonstarter-l2) | :x: Incomplete |
-| SDK | [TONStarter-sdk](https://github.com/tokamak-network/TONStarter-sdk) | :x: Incomplete |
+| Frontend | [tonstarter-l2](https://github.com/tokamak-network/tonstarter-l2) | Incomplete |
+| SDK | [TONStarter-sdk](https://github.com/tokamak-network/TONStarter-sdk) | Incomplete |
 
 ## Local hosting
 You can host TONStarter in local environment. Please follow this guide. As this is more of a reference hosting, we do not recommend using this software for production. Please do your own research. 
