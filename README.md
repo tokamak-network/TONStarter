@@ -25,8 +25,9 @@ TONStarter is a decentralized launchpad platform, originally designed by Tokamak
 ## Repository
 All repositories related to development for TONStarter is provided here. Please note that there are no official support for them. Use at your own risk.  
 
+
 | Type     | Name |Status                        |
-|----------|------|-------------------------------|
+|---|:---|:---|
 |     Whitepaper    |   [tonstarter-docs](https://github.com/tokamak-network/tonstarter-docs)      |  :heavy_check_mark: Completed 
 | Contract |  [tonstarter-contracts](https://github.com/tokamak-network/tonstarter-contracts)|  :heavy_check_mark: Completed
 |     Contract    |   [tonstarter-contract-upgrade](https://github.com/tokamak-network/tonstarter-contract-upgrade)         | :heavy_check_mark: Completed
