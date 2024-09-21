@@ -1,11 +1,10 @@
-# Table of contents
+# Table of Contents
 
-## ⚡ Introduction
+<span style="color: red;">⚠️ Notice</span>
 
-* 비망기록용으로 보관합니다.
-  * 더이상 서비스는 되지 않습니다.
+This service is no longer supported.
 
-## ⚙️ Service Guide
+
 
 * [TONStarter](service-guide/tonstarter/README.md)
   * [Launch (Simplified)](service-guide/tonstarter/launch-simplified/README.md)
@@ -17,3 +16,5 @@
     * [Bond](service-guide/tonstarter/tosv2/bond.md)
     * [Stake](service-guide/tonstarter/tosv2/stake.md)
     * [DAO (TONStarter)](service-guide/tonstarter/tosv2/dao-tonstarter.md)
+
+* [Token Faucet (testnet/영문 링크)](../EN/service-guide/faucet-testnet.md))
