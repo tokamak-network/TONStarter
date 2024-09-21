@@ -17,4 +17,4 @@
     * [Stake](service-guide/tonstarter/tosv2/stake.md)
     * [DAO (TONStarter)](service-guide/tonstarter/tosv2/dao-tonstarter.md)
 
-* [Token Faucet (testnet/영문 링크)](../EN/service-guide/faucet-testnet.md))
+* [Token Faucet (testnet/영문 링크)](../EN/service-guide/faucet-testnet.md)
