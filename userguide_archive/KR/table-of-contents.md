@@ -2,7 +2,7 @@
 
 <span style="color: red;">⚠️ Notice</span>
 
-This service is no longer supported.
+This service is no longer supported by Tokamak Network
 
 
 
