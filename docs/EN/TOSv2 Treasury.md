@@ -35,7 +35,7 @@ Query the Ether exchange rate for 1 TOS
 ## Function execution (Transaction)
 
 ### [claim(uint256 tosAmount)](https://etherscan.io/address/0xd27a68a457005f822863199af0f817f672588ad6#writeProxyContract#F6)
-Exchange TOS for Ether
+Redeem ETH by burning your TOS
 - Parameters
   - uint256 tosAmount: Amount of TOS (wei unit, 18 decimals)
 - Return Value
