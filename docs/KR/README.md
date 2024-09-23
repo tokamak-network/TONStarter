@@ -8,7 +8,7 @@
 - [sTOS 조회 방법](./sTOS.md)
 - [스테이킹된 TOS(LTOS) 조회 방법](./LTOS.md)
 - [TOS 스테이킹 관련 함수](./TOS%20staking.md)
-- [TOS Treasury 관련 함수](./TOSv2%20treasury.md)
+- [TOS Treasury 관련 함수 (ETH redeem 기능)](./TOSv2%20treasury.md)
 - [TOS Mining 관련 정보와 함수](./TOS%20mining.md)
 - [Reward Program  관련 정보와 함수](./Reward%20program%20(UniswapV3).md)
 - [Launched Project’s Vaults](./project%20vaults.md)
