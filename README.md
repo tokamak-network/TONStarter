@@ -11,6 +11,7 @@
 - [What is TONStarter?](#what-is-tonstarter)
 - [Documentation](#documentation)
 - [Repository](#repository)
+- [Local hosting](#local-hosting)
 - [Community hosted links](#community-hosted-links)
 - [Contributing](#contributing)
 
