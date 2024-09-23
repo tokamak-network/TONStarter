@@ -42,7 +42,7 @@
 
 ### [claim(uint256 tosAmount)](https://etherscan.io/address/0xd27a68a457005f822863199af0f817f672588ad6#writeProxyContract#F6)
 
-토스를 이더로 환전함
+ETH redeem 기능: 본인 토스를 버닝하고 이더로 환전함
 
 - 파라미터
   - uint256 tosAmount : 토스양 (wei unit, 18 decimals)
