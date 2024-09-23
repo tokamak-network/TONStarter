@@ -27,23 +27,22 @@ TONStarter is a decentralized launchpad platform, originally designed by Tokamak
 ## Repository
 All repositories related to development for TONStarter is provided here. Please note that there are no official support for them. Use at your own risk.
 
-| Type | Name | Status |
-|---|:---|:---|
-| Whitepaper | [tonstarter-docs](https://github.com/tokamak-network/tonstarter-docs) | Completed |
-| Contract | [tonstarter-contracts](https://github.com/tokamak-network/tonstarter-contracts) | Completed |
-| Contract | [tonstarter-contract-upgrade](https://github.com/tokamak-network/tonstarter-contract-upgrade) | Completed |
-| Contract | [tonstarter-project-token](https://github.com/tokamak-network/tonstarter-project-token) |   Completed |
-| Contract | [tonstarter-token-distribution](https://github.com/tokamak-network/tonstarter-token-distribution) | Completed |
-| Contract | [tonstarter-publicSaleUpgrade](https://github.com/tokamak-network/tonstarter-publicSaleUpgrade) | Completed |
-| Contract | [tosv2-contracts](https://github.com/tokamak-network/tosv2-contracts) | Completed |
-| Frontend | [tonstarter-frontend](https://github.com/tokamak-network/tonstarter-frontend) | Completed |
-| Frontend | [tosv2-interface](https://github.com/tokamak-network/tosv2-interface) | Completed |
-| Frontend | [TONStarter-templates](https://github.com/tokamak-network/TONStarter-templates) | Completed |
-| Backend | [ico20-server](https://github.com/tokamak-network/ico20-server) | Completed |
-| Contract | [l2-project-launch](https://github.com/tokamak-network/l2-project-launch) | Incomplete |
-| Frontend | [tonstarter-l2](https://github.com/tokamak-network/tonstarter-l2) | Incomplete |
-| SDK | [TONStarter-sdk](https://github.com/tokamak-network/TONStarter-sdk) | Incomplete |
-
+| Type     | Name |Status                        |
+|----------|------|-------------------------------|
+|     Whitepaper    |   [tonstarter-docs](https://github.com/tokamak-network/tonstarter-docs)      |  :heavy_check_mark: Completed
+| Contract |  [tonstarter-contracts](https://github.com/tokamak-network/tonstarter-contracts)|  :heavy_check_mark: Completed
+|     Contract    |   [tonstarter-contract-upgrade](https://github.com/tokamak-network/tonstarter-contract-upgrade)         | :heavy_check_mark: Completed
+|     Contract    |   [tonstarter-project-token](https://github.com/tokamak-network/tonstarter-project-token)         |  :heavy_check_mark: Completed
+|     Contract    |   [tonstarter-token-distribution](https://github.com/tokamak-network/tonstarter-token-distribution)         | :heavy_check_mark: Completed
+|     Contract    |   [tonstarter-publicSaleUpgrade](https://github.com/tokamak-network/tonstarter-publicSaleUpgrade)   |   :heavy_check_mark: Completed
+|     Contract    |   [tosv2-contracts](https://github.com/tokamak-network/tosv2-contracts)        |   :heavy_check_mark: Completed
+|     Frontend    |   [tonstarter-frontend](https://github.com/tokamak-network/tonstarter-frontend)        |  :heavy_check_mark: Completed
+|     Frontend    |   [tosv2-interface](https://github.com/tokamak-network/tosv2-interface)         |    :heavy_check_mark: Completed
+|     Frontend    |   [TONStarter-templates](https://github.com/tokamak-network/TONStarter-templates)         |  :heavy_check_mark: Completed
+|     Backend    |   [ico20-server](https://github.com/tokamak-network/ico20-server)      | :heavy_check_mark: Completed
+|     Contract    |   [l2-project-launch](https://github.com/tokamak-network/l2-project-launch)      |  :x: Incomplete
+|     Frontend    |   [tonstarter-l2](https://github.com/tokamak-network/tonstarter-l2)         |  :x: Incomplete
+|     SDK    |   [TONStarter-sdk](https://github.com/tokamak-network/TONStarter-sdk)          |  :x: Incomplete
 ## Local hosting
 You can host TONStarter in local environment. Please follow this guide. As this is more of a reference hosting, we do not recommend using this software for production. Please do your own research.
 - [TONStarter](https://github.com/tokamak-network/tonstarter-frontend/tree/archiving)
