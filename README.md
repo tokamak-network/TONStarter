@@ -41,6 +41,7 @@ All repositories related to development for TONStarter is provided here. Please 
 |     Frontend    |   [tosv2-interface](https://github.com/tokamak-network/tosv2-interface)         |    :heavy_check_mark: Completed
 |     Frontend    |   [TONStarter-templates](https://github.com/tokamak-network/TONStarter-templates)         |  :heavy_check_mark: Completed
 |     Backend    |   [ico20-server](https://github.com/tokamak-network/ico20-server)      | :heavy_check_mark: Completed
+|     User guide    |   [tonstarter-user-guide](https://github.com/tokamak-network/tonstarter-user-guide)         |  :heavy_check_mark: Completed
 |     Contract    |   [l2-project-launch](https://github.com/tokamak-network/l2-project-launch)      |  :x: Incomplete
 |     Frontend    |   [tonstarter-l2](https://github.com/tokamak-network/tonstarter-l2)         |  :x: Incomplete
 |     SDK    |   [TONStarter-sdk](https://github.com/tokamak-network/TONStarter-sdk)          |  :x: Incomplete
