@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <br />
-  <a href="https://tonstarter.tokamak.network"><img alt="TONStarter" src="https://tonstarter.tokamak.network/static/media/fld_bi_gray.bec69ff3.svg" width=600></a>
+  <a href="https://github.com/tokamak-network/TONStarter"><img alt="TONStarter" src="./docs/img/TONStarter-logo.png" width=600></a>
   <br />
   <h3>TONStarter is a decentralized launchpad platform, developed & maintained by community.</h3>
   <br />
