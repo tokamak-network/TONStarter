@@ -37,7 +37,7 @@ AURA : 0xaEC59E5b4f8DbF513e260500eA96EbA173F74149
 
 - Function: [claim](https://etherscan.io/address/0x17332f84cc0bbad551cd16675f406a0a2c55e28c#writeProxyContract#F2)
   - _token: 토큰주소
-
+            ( STOS 보유자에게 파워톤에서 배분된 에어드랍의 경우, WTON 주소(0xc4A11aaf6ea915Ed7Ac194161d2fC9384F15bff2) 입력)
 
 
 ## 톤 스테이커를 위한 에어드랍
