@@ -13,7 +13,7 @@
 
 ### [possibleIndex()](https://etherscan.io/address/0x14fb0933ec45ece75a431d10afaa1ddf7bfee44c#readProxyContract#F24)
 
-rebaseIndex()가 현재 실행되었을때 업데이트되는 LTOS index를 반환합니다.
+rebaseIndex()가 현재 실행되었을때 업데이트되는 LTOS index를 조회합니다.
 
 언스테이킹이 실행될때는 실행시점에서의 스테이킹 보상을 모두 받을수 있도록 하기 위해, rebaseIndex()를 호출하여, 지금까지의 모든 스테이킹 보상이 적용될 수 있도록 합니다.
 
