@@ -28,7 +28,7 @@ Before distributing tokens, you must **pre-approve the LockTOSDividendProxy addr
 
 - Function: [claimable](https://etherscan.io/address/0x17332f84cc0bbad551cd16675f406a0a2c55e28c#readProxyContract#F6)
 - _account: address to receive the airdrop
-- _token: token address
+- _token: token address (For airdrops distributed through PowerTON to sTOS holders, enter the WTON address 0xc4A11aaf6ea915Ed7Ac194161d2fC9384F15bff2)
 
 ### Claiming the airdrop
 

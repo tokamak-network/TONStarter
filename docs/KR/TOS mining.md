@@ -166,9 +166,9 @@ TON Mining 컨트랙은 이자 (TOS) 클래임과 TON 원금을 인출 할 수 �
       }
   ]
   ```
-- Contract Name : StakeTON 를 입력합니다.
+Contract Name에 StakeTON 를 입력합니다.
 
-Interface with Contract 버튼을 누르시면
+Interact with Contract 버튼을 누르시면
 
 ![Interface with Contract](../img/tos-mining-1.png)
 

@@ -10,12 +10,171 @@
 | TON #4     | 0x9F97b34161686d60ADB955ed63A2FC0b2eC0a2a9     | [link](https://etherscan.io/address/0x9f97b34161686d60adb955ed63a2fc0b2ec0a2a9#readProxyContract)       |
 | TON #5     | 0x21Db1777Dd95749A849d9e244136E72bd93082Ea     | [link](https://etherscan.io/address/0x21Db1777Dd95749A849d9e244136E72bd93082Ea#readProxyContract)       |
 
-
 The staking period for all TON Mining contracts has ended. TON Mining contracts provide functions to claim interest (TOS) and withdraw TON principal.
 
+## How to Execute Functions through MyCrypto
+Since the functions below do not appear on Etherscan for the above contracts, I will explain how to execute these functions through the MyCrypto site.
 
+After logging into the MyCrypto site, go to [TOOLS > Contracts](https://app.mycrypto.com/interact-with-contracts), and you will see the following screen:
 
-## 실행함수
+![MyCrypto Tools > Contracts](../img/tos-mining-0.png)
+
+- Contract: Enter the address of the relevant contract above.
+- ABI/JSON Interface: If there is existing data, delete it and enter the content below.
+  ```
+  [
+    {
+        "inputs": [],
+        "name": "withdraw",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "claim",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "specificBlock",
+            "type": "uint256"
+          }
+        ],
+        "name": "canRewardAmount",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "userStaked",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "claimedBlock",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "claimedAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "releasedBlock",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "releasedAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "releasedTOSAmount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "released",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "totalStakers",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "totalStakedAmount",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "startBlock",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "endBlock",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+  ]
+  ```
+Enter "StakeTON" under Contract Name.
+Then, click the "Interact with Contract" button
+![Interact with Contract](../img/tos-mining-1.png)
+
+Below the button, you will see the "Read/Write Contract" title and function selection box as shown below.
+
+![Read/Write Contract](../img/tos-mining-2.png)
+
+For example, if you want to execute the Withdraw function, select 'withdraw' from the function selection box, enter your address in the account field, and click the Write button to execute the withdraw function.
+![Read/Write Contract](../img/tos-mining-3.png)
+## Executable functions
 
 ### withdraw()
 After the mining end block has passed, withdraw the staked TON and operational profits (TOS received as seigniorage from Layer 2).
